@@ -1,0 +1,16 @@
+export const errorMessage = {
+  noReturn: "No value was returned from the function.",
+  wrongTypeString: "The returned value should be a string.",
+  wrongTypeNumber: "The returned value should be a number.",
+  wrongTypeBoolean: "The returned value should be a boolean.",
+  wrongType: "The returned value is of the wrong type.",
+  incorrectString: "The returned value does not match the expected string.",
+  incorrectNumber: "The returned value does not match the expected number.",
+  incorrectBoolean: "The returned value does not match the expected boolean.",
+  incorrectArray: "The returned array does not match the expected array.",
+  incorrectAnswer: "The returned value is not correct.",
+  noConsole: "No console output was produced.",
+  tooManyLogs: "Too many console outputs were produced.",
+  incorrectConsole: "The console output does not match the expected output.",
+  wrongArrayLength: "The returned array has an incorrect length.",
+}
