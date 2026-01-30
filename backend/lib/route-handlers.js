@@ -9,7 +9,7 @@ import { pathToFileURL } from "url"
 
 // Path to the shared folder - Differs for PROD DEPLOYED VERSION
 const sharedFolder = path.resolve("./src")
-const sharedVerificationFolder = path.resolve("./backend/lib")
+const sharedVerificationFolder = path.resolve("./backend/lib/utils")
 
 // Handlebars routes
 router.get("/", (_, res) => {
