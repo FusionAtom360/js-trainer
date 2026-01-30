@@ -11,7 +11,7 @@ const verify = ({ answer, logs }) => {
     feedback.push(errorMessage.wrongTypeString)
   }
 
-  if (answer && !answer.startsWith("Bob is playing and has 2 credit(s) left!\nBob is playing and has 1 credit(s) left!\nLily is playing and has 2 credit(s) left!\nBob's game is over!")) {
+  if (answer && !answer.includes("Events:\n~~~~~~~\nBob is playing and has 2 credit(s) left!\nBob is playing and has 1 credit(s) left!\nLily is playing and has 2 credit(s) left!\nBob's game is over!")) {
     feedback.push(errorMessage.incorrectString)
     feedback.push("Run the four example calls described in the exercise, then return eventLog to generate the correct output.")
   }
