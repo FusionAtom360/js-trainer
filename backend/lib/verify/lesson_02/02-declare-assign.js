@@ -11,8 +11,8 @@ const verify = ({ answer, logs }) => {
     feedback.push(errorMessage.wrongTypeString)
   }
 
-  if (answer !== "The light is on") {
-    feedback.push(errorMessage.incorrectString)
+  if (logs.length < 1) {
+    feedback.push(errorMessage.noConsole)
   }
 
   return {
