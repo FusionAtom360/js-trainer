@@ -7,7 +7,7 @@
     "start:frontend": "vite --host",
     "start:backend": "node --watch ./backend/server.js",
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "setup": "npm install && cd backend && npm install",
+    "setup": "concurrently \"npm install\" \"npm --prefix backend install\"",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
