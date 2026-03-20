@@ -31,8 +31,7 @@ Before you begin, ensure you meet the following requirements:
 Follow these steps to set up the app locally:
 
 1. Clone the repository
-2. Install npm dependencies at the root project folder: `npm install`
-3. Install npm dependencies from the `/backend` folder: `npm install`
-4. Navigate back to the root project folder and launch the app: `npm start`
+2. Install npm dependencies: `npm setup`
+3. Navigate back to the root project folder and launch the app: `npm start`
 
 **_Note: The start script will launch the frontend and backend servers_**
